@@ -1038,6 +1038,12 @@ h6 {
 
 /* roadmap */
 @media screen and (max-width: 980px) {
+  .each-event {
+    width: 165px;
+  }
+  .each-event:nth-child(even) {
+    margin-left: calc(50% - 187px);
+  }
   .myimage img {
     display: none;
   }
